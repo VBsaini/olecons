@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.07b702e1.css",
-    "main.js": "/react-gh-pages/static/js/main.97df5f87.js",
-    "static/media/Circe-Bold.otf": "/react-gh-pages/static/media/Circe-Bold.3829a43ce57f35080843.otf",
-    "static/media/Circe-ExtraBold.otf": "/react-gh-pages/static/media/Circe-ExtraBold.0bf9e7f626ded5ce2e19.otf",
-    "static/media/CRC25.otf": "/react-gh-pages/static/media/CRC25.8d0f19652c50c3931ab3.otf",
-    "static/media/CRC55.otf": "/react-gh-pages/static/media/CRC55.c2a2631afc6d5bb5c30b.otf",
-    "static/media/CRC35.otf": "/react-gh-pages/static/media/CRC35.9b873950dc2ae3209c61.otf",
-    "index.html": "/react-gh-pages/index.html",
-    "main.07b702e1.css.map": "/react-gh-pages/static/css/main.07b702e1.css.map",
-    "main.97df5f87.js.map": "/react-gh-pages/static/js/main.97df5f87.js.map"
+    "main.css": "/olecons/static/css/main.68c2e5b1.css",
+    "main.js": "/olecons/static/js/main.9be4a0c9.js",
+    "static/media/Circe-Bold.otf": "/olecons/static/media/Circe-Bold.3829a43ce57f35080843.otf",
+    "static/media/Circe-ExtraBold.otf": "/olecons/static/media/Circe-ExtraBold.0bf9e7f626ded5ce2e19.otf",
+    "static/media/CRC25.otf": "/olecons/static/media/CRC25.8d0f19652c50c3931ab3.otf",
+    "static/media/CRC55.otf": "/olecons/static/media/CRC55.c2a2631afc6d5bb5c30b.otf",
+    "static/media/CRC35.otf": "/olecons/static/media/CRC35.9b873950dc2ae3209c61.otf",
+    "index.html": "/olecons/index.html",
+    "main.68c2e5b1.css.map": "/olecons/static/css/main.68c2e5b1.css.map",
+    "main.9be4a0c9.js.map": "/olecons/static/js/main.9be4a0c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.07b702e1.css",
-    "static/js/main.97df5f87.js"
+    "static/css/main.68c2e5b1.css",
+    "static/js/main.9be4a0c9.js"
   ]
 }
