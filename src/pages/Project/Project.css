@@ -1,0 +1,796 @@
+.main-project-info h2 {
+  font-family: CirceBold;
+  font-weight: 900;
+  margin-top: 200px;
+}
+.main-project-info p {
+  font-size: 23px;
+  width: 50%;
+  font-family: Circe;
+  font-weight: 600;
+  margin-top: 40px;
+}
+.project-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 800px 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: ". .";
+}
+.project-upshift {
+  margin-top: 200px;
+}
+.project-card img {
+  position: absolute;
+}
+.project-upshift img {
+  width: 355px;
+}
+.project-upshift .widgit-2 {
+  left: 269px;
+  width: 403px;
+  bottom: -450px;
+}
+.project-upshift .widgit-1 {
+  left: 119px;
+  z-index: 1;
+  top: 216px;
+}
+.project-upshift .girl {
+  left: 132px;
+  top: 336px;
+  z-index: 2;
+}
+.project-img-container {
+  height: 570px;
+  overflow: hidden;
+  position: relative;
+}
+.project-text-container {
+  margin: auto;
+  margin-left: 40px;
+}
+.project-text-container h4 {
+  color: #1a1a1a;
+  font-size: 28px;
+  font-weight: 900;
+  font-family: "CirceBold", Arial, sans-serif;
+  line-height: 1.2;
+  font-weight: 600;
+}
+.project-text-container p {
+  color: #1a1a1a;
+  font-size: 17px;
+  font-family: "Circe", Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.project-ICLRC img {
+  width: 1100px;
+  left: -20%;
+}
+.project-ICLRC .screen {
+  top: 0px;
+  z-index: 2;
+}
+
+.project-ICLRC .moniter {
+  z-index: 1;
+}
+.project-ICLRC .project-img-container::before {
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  top: 20%;
+  opacity: 0.1;
+  content: "";
+  left: 100px;
+  border-radius: 40px;
+  background-color: rgb(145, 145, 145);
+}
+.project-alt {
+  grid-template-columns: 1fr 800px;
+}
+.project-wedding img {
+  width: 300px;
+}
+.project-wedding .mainsite-1 {
+  right: 200px;
+  z-index: 1;
+  bottom: -10px;
+  width: 500px;
+}
+.project-wedding .mainsite-2 {
+  right: 0;
+  width: 500px;
+}
+.project-wedding .project-img-container::before {
+  position: absolute;
+  width: 700px;
+  height: 300px;
+  top: 40%;
+  opacity: 0.1;
+  content: "";
+  left: 100px;
+  border-radius: 40px;
+  background-color: #f6e4d0;
+}
+.project-wedding .project-img-container {
+  height: 600px;
+}
+.project-wedding .small-leave-right {
+  right: 0;
+  bottom: 10%;
+  width: 150px;
+}
+.project-wedding .leave-top-left {
+  left: 0;
+  bottom: 100px;
+  width: 150px;
+}
+.project-wedding .leave-bottom-left {
+  left: 0;
+  bottom: -30%;
+  width: 150px;
+}
+.project-alligator .project-img-container {
+  height: 600px;
+}
+.project-alligator .mainsite-2 {
+  right: 167px;
+  width: 287px;
+  bottom: -235px;
+}
+.project-alligator .widgit {
+  width: 224px;
+  right: 199px;
+  top: 239px;
+}
+.project-alligator .mainsite-1 {
+  bottom: 10px;
+  width: 400px;
+  right: 300px;
+}
+.project-alligator .small-left-cube {
+  left: 30px;
+  bottom: 20px;
+  width: 125px;
+}
+.project-alligator .faded-cube {
+  right: -30px;
+  bottom: -240px;
+  width: 200px;
+}
+.second-project {
+  margin-top: 300px;
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr;
+  grid-template-rows: 400px 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "bash . razvivai"
+    "bash . razvivai-text"
+    "bash . ."
+    "bash-text . four-pho"
+    ". . four-pho"
+    "startis . pho-text"
+    "startis . ."
+    "startis-text . .";
+}
+
+.bash {
+  grid-area: bash;
+  height: 700px;
+}
+
+.razvivai {
+  grid-area: razvivai;
+}
+
+.bash-text {
+  grid-area: bash-text;
+}
+
+.razvivai-text {
+  grid-area: razvivai-text;
+}
+
+.four-pho {
+  grid-area: four-pho;
+}
+
+.pho-text {
+  grid-area: pho-text;
+}
+
+.startis {
+  grid-area: startis;
+}
+
+.startis-text {
+  grid-area: startis-text;
+}
+.second-project-img-container {
+  position: relative;
+  overflow: hidden;
+}
+.second-project-img-container img {
+  position: absolute;
+}
+.bash img {
+  width: 100px;
+}
+.bolt,
+.bolt-1,
+.bolt-2 {
+  width: 28px !important;
+}
+.card-right {
+  width: 800px !important;
+  left: -134px;
+  top: 167px;
+}
+.bash .cloud {
+  left: 217px;
+  top: 219px;
+}
+.card-left {
+  width: 800px !important;
+  left: -242px;
+}
+.bash .cloud {
+  width: 130px !important ;
+}
+.bolt {
+  left: 84px;
+  top: 68px;
+}
+.bolt-1 {
+  left: 111px;
+  top: 109px;
+}
+.bolt-2 {
+  left: 35px;
+  top: 464px;
+}
+.razvivai img {
+  width: 275px;
+}
+.widgit-right {
+  left: 173px;
+  z-index: 1;
+}
+.brand-new-widgit {
+  width: 86px !important;
+  top: 20px;
+  left: 318px;
+  z-index: 2;
+}
+.four-pho .card {
+  outline: 5px white solid;
+  width: 400px;
+  outline-offset: -2px;
+}
+.four-pho .leaves-right {
+  z-index: 1;
+  width: 150px;
+  left: 246px;
+}
+.food {
+  left: -14px;
+  width: 333px;
+  top: 61px;
+}
+.four-pho .leave-bottom-left {
+  top: 200px;
+  width: 200px;
+  left: -60px;
+}
+.startis-right-widgit {
+  left: 200px;
+  width: 200px;
+  z-index: 1;
+  top: 50px;
+}
+.startis-left-widgit {
+  width: 349px;
+}
+.second-project-heading {
+  width: 50%;
+  color: #3c3c3c;
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 20px;
+  font-family: "CirceBold", Arial, sans-serif;
+  line-height: 1.2;
+  font-weight: 600;
+}
+.second-project-para {
+  margin-left: 40px;
+}
+.leaves-left {
+  left: -171px;
+  top: 200px;
+  width: 282px;
+}
+@media (max-width: 1850px) {
+  .project-text-container {
+    margin-left: 0px;
+  }
+}
+@media (max-width: 1201px) {
+  .project-card {
+    grid-template-columns: 667px 1fr;
+  }
+  .project-alt {
+    grid-template-columns: 1fr 667px;
+  }
+  .project-upshift .widgit-2 {
+    left: 229px;
+    width: 428px;
+    bottom: -450px;
+  }
+  .project-upshift img {
+    width: 417px;
+  }
+  .project-ICLRC img {
+    width: 880px;
+    top: 80px;
+    left: -20%;
+  }
+  .project-ICLRC .screen {
+    top: 80px;
+  }
+}
+@media (max-width: 1100px) {
+  .second-project {
+    margin-left: 25%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 700px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "bash"
+      "bash"
+      "bash-text"
+      "."
+      "startis"
+      "startis"
+      "startis-text"
+      "."
+      "four-pho"
+      "four-pho"
+      "pho-text"
+      "."
+      "razvivai"
+      "razvivai"
+      "razvivai-text";
+  }
+
+  .bash {
+    grid-area: bash;
+  }
+
+  .bash-text {
+    grid-area: bash-text;
+  }
+
+  .startis {
+    grid-area: startis;
+  }
+
+  .startis-text {
+    grid-area: startis-text;
+  }
+
+  .four-pho {
+    grid-area: four-pho;
+  }
+
+  .pho-text {
+    grid-area: pho-text;
+  }
+
+  .razvivai {
+    grid-area: razvivai;
+  }
+
+  .razvivai-text {
+    grid-area: razvivai-text;
+  }
+  .project-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 667px 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "img"
+      "text";
+  }
+  .main-project-info p {
+    width: 80%;
+  }
+  .project-img-container {
+    grid-area: img;
+  }
+  .project-alligator .project-img-container,
+  .project-wedding .project-img-container {
+    width: 652px;
+  }
+
+  .project-text-container {
+    grid-area: text;
+  }
+}
+
+@media (max-width: 744px) {
+  .second-project {
+    margin-left: 15%;
+  }
+  .project-upshift .widgit-2 {
+    left: 178px;
+    width: 286px;
+    bottom: -316px;
+  }
+  .project-upshift .widgit-1 {
+    left: 10px;
+    z-index: 1;
+    top: 216px;
+  }
+  .project-upshift .girl {
+    left: 22px;
+    top: 336px;
+    z-index: 2;
+  }
+  .project-upshift img {
+    width: 294px;
+  }
+  .project-wedding .mainsite-1 {
+    right: 113px;
+    z-index: 1;
+    bottom: -40px;
+    width: 345px;
+  }
+  .project-wedding .mainsite-2 {
+    right: 0;
+    top: 146px;
+    width: 355px;
+  }
+  .project-wedding .small-leave-right {
+    right: 0;
+    bottom: 10%;
+    width: 109px;
+  }
+  .project-wedding .leave-top-left {
+    left: 0;
+    bottom: 114px;
+    width: 75px;
+  }
+  .project-wedding .leave-bottom-left {
+    left: 0;
+    bottom: -30%;
+    width: 98px;
+  }
+  .project-alligator .project-img-container,
+  .project-wedding .project-img-container {
+    width: 450px;
+    margin: 0 auto;
+  }
+  .project-ICLRC .project-img-container {
+    margin-right: -12.5vw;
+  }
+  .project-ICLRC img {
+    width: 738px;
+    top: 157px;
+    left: -21%;
+  }
+  .project-ICLRC .screen {
+    top: 169px;
+  }
+  .project-ICLRC .project-img-container::before {
+    left: 53px;
+  }
+  .project-alligator .mainsite-2 {
+    right: 14px;
+    width: 226px;
+    bottom: -148px;
+  }
+  .project-alligator .widgit {
+    width: 166px;
+    right: 56px;
+    top: 285px;
+  }
+  .project-alligator .mainsite-1 {
+    bottom: -27px;
+    width: 333px;
+    right: 107px;
+  }
+  .project-alligator .small-left-cube {
+    left: -7px;
+    bottom: 20px;
+    width: 68px;
+  }
+  .project-alligator .faded-cube {
+    right: -1px;
+    bottom: -240px;
+    z-index: 3;
+    width: 110px;
+  }
+}
+@media (max-width: 614px) {
+  .project-ICLRC .project-img-container {
+    margin-right: -5vw;
+  }
+  .project-alligator .project-img-container,
+  .project-wedding .project-img-container {
+    width: calc(100% + 10vw);
+    margin-left: -5vw;
+  }
+  .project-wedding .mainsite-1 {
+    z-index: 1;
+    bottom: -40px;
+    left: 41px;
+    width: 345px;
+  }
+  .project-wedding .mainsite-2 {
+    left: 165px;
+    top: 190px;
+    width: 311px;
+  }
+  .project-alligator .widgit {
+    width: 166px;
+    left: 323px;
+    top: 270px;
+  }
+  .project-alligator .mainsite-2 {
+    width: 226px;
+    bottom: -148px;
+    left: 284px;
+  }
+  .project-alligator .mainsite-1 {
+    bottom: -27px;
+    width: 333px;
+    left: 83px;
+  }
+  .second-project {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 500px) {
+  .second-project-img-container {
+    width: calc(100% + 10vw);
+    margin-left: -5vw;
+  }
+  .second-project-heading {
+    width: 70%;
+  }
+  .razvivai {
+    min-height: 270px;
+  }
+  .second-project {
+    grid-template-rows: 700px 1fr 0.5fr 1fr 1fr 0.5fr 0.3fr 1fr 1fr 0.5fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "bash"
+      "bash-text"
+      "."
+      "startis"
+      "startis-text"
+      "."
+      "four-pho"
+      "four-pho"
+      "pho-text"
+      "."
+      "razvivai"
+      "razvivai-text";
+  }
+  .razvivai img {
+    width: 216px;
+  }
+  .widgit-right {
+    left: 124px;
+  }
+  .brand-new-widgit {
+    width: 66px !important;
+    top: 20px;
+    left: 259px;
+  }
+  .startis-right-widgit {
+    left: 188px;
+    width: 170px;
+    top: 50px;
+  }
+  .startis-left-widgit {
+    width: 305px;
+  }
+  .second-project {
+    margin-left: 0%;
+  }
+  .project-alligator .widgit {
+    width: 136px;
+    left: 229px;
+    top: 349px;
+  }
+  .project-alligator .mainsite-2 {
+    width: 190px;
+    bottom: -148px;
+    left: 205px;
+  }
+  .project-alligator .mainsite-1 {
+    bottom: -27px;
+    width: 270px;
+    left: 39px;
+  }
+  .project-ICLRC .project-img-container::before {
+    width: 339px;
+    height: 213px;
+    bottom: 0;
+    top: inherit;
+    left: 4px;
+  }
+  .project-ICLRC .screen {
+    top: 205px;
+  }
+  .project-ICLRC img {
+    width: 661px;
+    top: 205px;
+    left: -103px;
+  }
+  .project-wedding .mainsite-1 {
+    bottom: -40px;
+    left: 5px;
+    width: 304px;
+  }
+  .project-wedding .mainsite-2 {
+    left: 120px;
+    top: 261px;
+    width: 265px;
+  }
+  .project-upshift .widgit-2 {
+    left: 107px;
+    width: 235px;
+    bottom: -303px;
+  }
+  .project-upshift .widgit-1 {
+    left: 10px;
+    z-index: 1;
+    top: 345px;
+  }
+  .project-upshift img {
+    width: 227px;
+  }
+  .project-upshift .girl {
+    left: 22px;
+    top: 429px;
+    z-index: 2;
+  }
+}
+@media (max-width: 376px) {
+  .project-alligator .faded-cube {
+    right: -1px;
+    bottom: -240px;
+    z-index: 3;
+    width: 95px;
+  }
+  .project-alligator .widgit {
+    width: 121px;
+    left: 183px;
+    top: 397px;
+  }
+  .project-alligator .mainsite-2 {
+    width: 158px;
+    bottom: -134px;
+    left: 162px;
+  }
+  .project-alligator .mainsite-1 {
+    bottom: -27px;
+    width: 218px;
+    left: 22px;
+  }
+  .project-alligator .small-left-cube {
+    left: 0px;
+    bottom: 20px;
+    width: 42px;
+  }
+  .project-alligator {
+    margin-top: -150px;
+  }
+  .project-ICLRC .screen,
+  .project-ICLRC .moniter {
+    left: -176px;
+    bottom: -5px;
+    top: inherit;
+  }
+  .ball-4 {
+    left: 78px;
+  }
+  .ball-3 {
+    left: 155px;
+  }
+  .ball-2 {
+    left: -150px;
+  }
+  .project-wedding .mainsite-2 {
+    left: 114px;
+    top: 305px;
+    width: 237px;
+  }
+  .project-wedding .mainsite-1 {
+    bottom: -40px;
+    left: -3px;
+    width: 272px;
+  }
+  .project-upshift .widgit-2 {
+    left: 99px;
+    width: 206px;
+    bottom: -251px;
+  }
+  .project-upshift .widgit-1 {
+    left: 10px;
+    z-index: 1;
+    top: 370px;
+  }
+  .project-upshift .girl {
+    left: 22px;
+    top: 437px;
+    z-index: 2;
+  }
+  .project-upshift img {
+    width: 197px;
+  }
+  .bash .cloud {
+    width: 104px !important;
+
+    left: 186px;
+    top: 215px;
+  }
+  .bolt-2 {
+    left: 42px;
+    top: 430px;
+  }
+  .bolt {
+    left: 86px;
+    top: 61px;
+  }
+  .bolt-1 {
+    left: 137px;
+    top: 88px;
+  }
+  .card-right {
+    width: 700px !important;
+    left: -134px;
+    top: 167px;
+  }
+  .card-left {
+    width: 700px !important;
+    left: -219px;
+  }
+  .startis-right-widgit {
+    left: 160px;
+    width: 154px;
+    top: 50px;
+  }
+  .startis-left-widgit {
+    width: 281px;
+  }
+  .widgit-right {
+    left: 105px;
+  }
+  .brand-new-widgit {
+    width: 56px !important;
+    top: 15px;
+    left: 223px;
+  }
+  .razvivai img {
+    width: 191px;
+  }
+  .second-project-heading,
+  .second-project-para {
+    margin-left: 0;
+  }
+}

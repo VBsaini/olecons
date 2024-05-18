@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Circe";
+  src: url("./assets/fonts/Circe/CRC35.otf") format("truetype");
+}
+@font-face {
+  font-family: "CirceBold";
+  src: url("./assets/fonts/Circe/CRC55.otf") format("truetype");
+}
+@font-face {
+  font-family: "CirceExtraBold";
+  src: url("./assets/fonts/Circe/Circe-ExtraBold.otf") format("truetype");
+}
+@font-face {
+  font-family: "CirceBold2";
+  src: url("./assets/fonts/Circe/Circe-Bold.otf") format("truetype");
+}

@@ -1,0 +1,66 @@
+.copyright {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-family: "CirceBold", Arial, sans-serif;
+  line-height: 1.55;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+.footer-body-1 {
+  color: #a2a2a2;
+  font-size: 17px;
+  font-family: "Circe", Arial, sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  padding-top: 20px;
+}
+.footer-body-2 {
+  color: #a2a2a2;
+  font-size: 17px;
+  font-family: "Circe", Arial, sans-serif;
+  line-height: 1.45;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+.footer-logo-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 100px;
+}
+.footer-languages {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.language-en,
+.language-fr {
+  font-size: 20px;
+  font-family: "CirceBold", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+.language-en {
+  color: #3c3c3c;
+}
+.language-fr {
+  color: #a2a2a2;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 950px) {
+  .footer-languages {
+    display: none;
+  }
+}

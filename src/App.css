@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 60%;
+  margin: auto;
+}
+
+.font-face-circe {
+  font-family: "Circe";
+}
+
+/* MEDIA QUERIES FOR RESPONSIVENESS */
+@media (max-width: 1640px) {
+  .App {
+    width: 70vw;
+    margin: auto;
+  }
+  .home-project-card {
+    margin-right: calc(-15vw + 4px) !important;
+  }
+  .hompage-footer::before {
+    width: calc(100% + 35vw - 4px) !important;
+  }
+  .full-width-content {
+    margin-left: 15vw !important;
+  }
+  .full-width {
+    margin-left: -15vw !important;
+    width: calc(100% + 30vw) !important;
+  }
+}
+@media (max-width: 1440px) {
+  .App {
+    width: 75%;
+    margin: auto;
+  }
+  .home-project-card {
+    margin-right: calc(-12.5vw + 4px) !important;
+  }
+  .hompage-footer::before {
+    width: calc(100% + 32.5vw - 4px) !important;
+  }
+  .full-width-content {
+    margin-left: 12.5vw !important;
+  }
+  .full-width {
+    margin-left: -12.5vw !important;
+    width: calc(100% + 25vw) !important;
+  }
+}
+@media (max-width: 1300px) {
+  .App {
+    width: 80%;
+    margin: auto;
+  }
+  .home-project-card {
+    margin-right: calc(-10vw + 4px) !important;
+  }
+  .hompage-footer::before {
+    width: calc(100% + 30vw - 4px) !important;
+  }
+  .full-width-content {
+    margin-left: 10vw !important;
+  }
+  .full-width {
+    margin-left: -10vw !important;
+    width: calc(100% + 20vw) !important;
+  }
+}
+@media (max-width: 1100px) {
+  .App {
+    width: 60%;
+    margin: auto;
+  }
+  .home-project-card {
+    margin-right: calc(-20vw + 4px) !important;
+  }
+  .hompage-footer::before {
+    width: calc(100% + 40vw - 4px) !important;
+  }
+  .full-width-content {
+    margin-left: 20vw !important;
+  }
+  .full-width {
+    margin-left: -20vw !important;
+    width: calc(100% + 40vw) !important;
+  }
+}
+@media (max-width: 950px) {
+  .App {
+    width: 75%;
+    margin: auto;
+  }
+  .home-project-card {
+    margin-right: calc(-12.5vw + 4px) !important;
+  }
+  .hompage-footer::before {
+    width: calc(100% + 32.5vw - 4px) !important;
+  }
+  .full-width-content {
+    margin-left: 12.5vw !important;
+  }
+  .full-width {
+    margin-left: -12.5vw !important;
+    width: calc(100% + 25vw) !important;
+  }
+}
+@media (max-width: 614px) {
+  .App {
+    width: 90%;
+  }
+  .home-project-card {
+    margin-right: calc(-5vw + 4px) !important;
+  }
+  .hompage-footer::before {
+    width: calc(100% + 25vw - 4px) !important;
+  }
+  .full-width-content {
+    margin-left: 5vw !important;
+  }
+  .full-width {
+    margin-left: -5vw !important;
+    width: calc(100% + 10vw) !important;
+  }
+}

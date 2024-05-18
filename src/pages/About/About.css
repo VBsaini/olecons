@@ -1,0 +1,351 @@
+.geo-background {
+  position: absolute;
+  /* width: calc(100% + 50vw - 24px); */
+  width: 100%;
+  height: 100%;
+  margin-left: -25vw;
+  transform: scale(0.8);
+}
+
+.orange-circle-1,
+.orange-circle-2,
+.orange-circle-3,
+.orange-circle-4 {
+  position: relative;
+  top: -100px;
+  left: 50%px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fe7146;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.orange-circle-2 {
+  width: 29px;
+  height: 29px;
+}
+.orange-circle-3 {
+  width: 14px;
+  height: 14px;
+}
+.orange-circle-4 {
+  top: -60px;
+  width: 22px;
+  height: 22px;
+}
+
+.about-header {
+  color: #3c3c3c;
+  font-family: montserrat;
+  font-weight: 900;
+  font-size: 44px;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.about-container {
+  position: relative;
+}
+.our-story-header,
+.geography-header,
+.approach-header,
+.our-team-header {
+  color: #3c3c3c;
+  font-family: CirceBold, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  text-align: left;
+  position: relative;
+}
+.our-team-header {
+  margin-bottom: 100px;
+}
+.our-story-body,
+.geography-body {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-family: Circe, Arial, sans-serif;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  font-weight: 600;
+  text-align: left;
+  line-height: 30px;
+  vertical-align: middle;
+  margin-bottom: 150px;
+  position: relative;
+}
+.our-story-body {
+  margin-bottom: 100px;
+  width: 601px;
+  height: 210px;
+}
+.geography-body {
+  width: 602px;
+  height: 120px;
+}
+
+.geography-img {
+  width: 100%;
+  display: block;
+}
+
+.approach-body {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-family: Circe, Arial, sans-serif;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  text-align: left;
+  line-height: 30px;
+  display: flex;
+  font-weight: 600;
+  flex-direction: row;
+  justify-content: flex-start;
+  vertical-align: middle;
+  margin-bottom: 150px;
+  position: relative;
+}
+.approach-body-1 {
+  width: 552px;
+  height: 270px;
+  vertical-align: middle;
+}
+.approach-body-2 {
+  display: flex;
+}
+.approach-body-2-desc {
+  width: 269px;
+  height: 150px;
+}
+.divider-line {
+  background-color: #ff7739;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  width: 5px;
+  height: 145px;
+  margin-right: 20px;
+  margin-left: 60px;
+}
+
+.our-team-body {
+  line-height: 30px;
+}
+.our-team-body-photo {
+  text-align: left;
+}
+.our-team-body-member-name {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-family: "Circe", Arial, sans-serif;
+  line-height: 30px;
+  font-weight: 600;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  text-align: left;
+}
+.our-team-body-member-description {
+  color: #3c3c3c;
+  font-size: 20px !important;
+  font-family: "Circe", Arial, sans-serif;
+  line-height: 30px;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  text-align: left;
+}
+.our-team-body-member-position {
+  color: #a2a2a2;
+  font-size: 17px !important;
+  font-family: "Circe", Arial, sans-serif;
+  line-height: 30px;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-bottom {
+  color: #a2a2a2;
+  font-size: 17px;
+  font-family: "Circe", Arial, sans-serif;
+  line-height: 30px;
+  font-weight: 400;
+  width: 402px;
+  height: 78px;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.thin-grey-line {
+  background-color: #a2a2a2;
+
+  background-position: center center;
+  border-color: transparent;
+  width: 100%;
+  height: 1px;
+  margin-bottom: 100px;
+}
+
+.services-header {
+  color: #3c3c3c;
+  font-family: CirceExtraBold, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  text-align: left;
+  position: relative;
+}
+
+.services-body {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-family: Circe, Arial, sans-serif;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  font-weight: 600;
+  text-align: left;
+  line-height: 30px;
+  vertical-align: middle;
+  margin-bottom: 150px;
+  position: relative;
+}
+
+/* MEDIA QUERIES FOR RESPONSIVENESS */
+@media screen and (max-width: 1200px) {
+  .geography-body {
+    width: 564px;
+    height: 150px;
+    border-style: none;
+  }
+  .approach-body {
+    margin-bottom: 200px;
+  }
+  .approach-body-1 {
+    width: 429px;
+    height: 230px;
+    margin-right: 50px;
+  }
+  .approach-body-2-desc {
+    width: 203px;
+    height: 180px;
+  }
+  .divider-line {
+    margin-left: 0px;
+    width: 5px;
+    height: 175px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  *,
+  .our-story-body,
+  .geography-body {
+    font-size: 16px;
+    font-weight: 1000;
+  }
+  .our-story-header,
+  .geography-header,
+  .approach-header,
+  .our-team-header {
+    font-size: 25px;
+  }
+  .approach-body {
+    margin-bottom: 100px;
+  }
+  .about-header {
+    font-size: 35px;
+  }
+  .services {
+    display: none;
+  }
+  .approach-body-1 {
+    margin-right: 0;
+    width: 429px;
+    height: 330px;
+  }
+  .approach-body-2 {
+    margin-left: 50px;
+  }
+  .member-2,
+  .member-4 {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .our-story-body {
+    width: 385px;
+    height: 360px;
+    border-style: none;
+  }
+  .geography-body {
+    width: 380px;
+    height: 210px;
+    border-style: none;
+  }
+  .approach-body {
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .approach-body-2-desc {
+    width: 378px;
+    height: 120px;
+  }
+  .approach-body-2 {
+    margin-left: 0px;
+  }
+  .divider-line {
+    margin-left: 0px;
+    width: 5px;
+    height: 110px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .approach-body-2 {
+    margin-left: 0;
+  }
+  .divider-line {
+    height: 90px;
+  }
+  .our-team-body-row {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .member-2,
+  .member-3,
+  .member-4 {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .our-team-body-row {
+    margin-left: 25%;
+  }
+}

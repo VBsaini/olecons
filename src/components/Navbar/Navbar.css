@@ -1,0 +1,138 @@
+.page-nav {
+  margin-top: 3%;
+  background: transparent;
+  display: flexbox;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.collapse {
+  align-items: flex-end;
+  justify-content: center;
+}
+.nav-item-title {
+  color: #3c3c3c;
+  font-size: 17px;
+  font-family: "CirceBold", Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.request-button {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "CirceBold", Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+  border-width: 1px;
+  border-radius: 30px;
+  background-color: #fe7146;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  width: 240px;
+  height: 45px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.navbar-toggler {
+  border: none;
+  border-radius: 0;
+}
+.navbar-toggler-icon {
+  background-image: none;
+  font-size: 20px;
+  color: black;
+  transform: scale(1.4);
+  font-family: "CirceBold";
+  font-weight: 900;
+}
+.navbar-toggler:focus {
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+}
+.full-screen {
+  position: fixed;
+  left: 0;
+  padding: 0 40px;
+  padding-top: 20px;
+  top: 0;
+  background-color: white;
+  height: 100vh;
+  margin-left: 0 !important;
+  width: 100vw !important;
+  transition: 0.5s all;
+  transform: translateX(-100%);
+  z-index: 20000;
+}
+.screen-show {
+  transform: translateX(0%);
+}
+.full-screen .navbar-nav {
+  height: 100%;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.full-screen .nav-item-title {
+  color: #3c3c3c;
+  font-weight: 900;
+  font-family: "CirceBold";
+}
+.full-screen .nav-text {
+  margin-top: auto;
+  font-size: initial;
+  margin-bottom: 70px;
+  width: 80%;
+  font-weight: 100;
+  font-family: "Circe";
+  color: #a2a2a2;
+}
+.navbar-collapsed-toggler-icon-container {
+  position: absolute;
+  right: 55px;
+  width: 20px;
+  top: 40px;
+  height: 20px;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+}
+.navbar-collapsed-toggler-icon {
+  width: 100%;
+  display: block;
+  position: relative;
+  height: 100%;
+}
+.navbar-collapsed-toggler-icon::before,
+.navbar-collapsed-toggler-icon::after {
+  content: "";
+  width: 1.5px;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 0;
+  left: 10px;
+  background-color: black;
+  height: 100%;
+}
+.navbar-collapsed-toggler-icon::after {
+  left: calc(100% - 10px);
+  transform: rotate(45deg);
+}
+@media (max-width: 1100px) {
+  .navbar-expand-lg .navbar-nav.main {
+    margin-right: -90px;
+  }
+}
